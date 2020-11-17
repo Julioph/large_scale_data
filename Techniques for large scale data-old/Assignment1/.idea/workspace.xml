@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e82a42c1-604b-49a1-b138-7e37024a71d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="78b91d0d-b9b9-4b92-b018-1a1c370932a1" />
+  <component name="ProjectId" id="1ZcVOPEJLZwCqwJhH0rHUdZWHgm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.run-montecarlo">
+    <configuration name="mp-pi-montecarlo-pool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mp-pi-montecarlo-pool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run-montecarlo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Assignment1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run-montecarlo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run-montecarlo" />
+        <item itemvalue="Python.mp-pi-montecarlo-pool" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e82a42c1-604b-49a1-b138-7e37024a71d2" name="Default Changelist" comment="" />
+      <created>1585138337270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585138337270</updated>
+      <workItem from="1585138346456" duration="4935000" />
+      <workItem from="1585148752226" duration="11657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="98" key="FileChooserDialogImpl" timestamp="1585148632760">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="98" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1585148632760" />
+    <state width="1481" height="250" key="GridCell.Tab.0.bottom" timestamp="1585167474640">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="250" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1585167474640" />
+    <state width="1481" height="250" key="GridCell.Tab.0.center" timestamp="1585167474640">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="250" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1585167474640" />
+    <state width="1481" height="250" key="GridCell.Tab.0.left" timestamp="1585167474640">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="250" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1585167474640" />
+    <state width="1481" height="250" key="GridCell.Tab.0.right" timestamp="1585167474640">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1481" height="250" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1585167474640" />
+    <state x="161" y="0" key="SettingsEditor" timestamp="1585148634358">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="161" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1585148634358" />
+    <state x="401" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1585138365237">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="401" y="200" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1585138365237" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Assignment1$mp_pi_montecarlo_pool.coverage" NAME="mp-pi-montecarlo-pool Coverage Results" MODIFIED="1585142269028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Assignment1$run_montecarlo.coverage" NAME="run-montecarlo Coverage Results" MODIFIED="1585160102923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
