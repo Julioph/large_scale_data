@@ -1,0 +1,24 @@
+slurmstepd-bayes: error: "no " is not a valid option for "CgroupAutomount"
+slurmstepd-bayes: error: "yes " is not a valid option for "ConstrainCores"
+Start script!
+[1, 2, 4, 8, 16, 32] 0.0001
+=========== Computing with 1 cores ============
+Done in 14.07 seconds and 5 iterations
+ESTIMATE: 3.1415724 | ERROR: 2.025358979329539e-05
+=========== Computing with 2 cores ============
+Done in 8.75 seconds and 6 iterations
+ESTIMATE: 3.1414968 | ERROR: 9.585358979302683e-05
+=========== Computing with 4 cores ============
+Done in 3.08 seconds and 2 iterations
+ESTIMATE: 3.141632 | ERROR: 3.9346410206864135e-05
+=========== Computing with 8 cores ============
+Done in 3.21 seconds and 6 iterations
+ESTIMATE: 3.1415060666666665 | ERROR: 8.658692312657479e-05
+=========== Computing with 16 cores ============
+Done in 9.41 seconds and 23 iterations
+ESTIMATE: 3.141539286956522 | ERROR: 5.336663327115687e-05
+=========== Computing with 32 cores ============
+Done in 6.09 seconds and 4 iterations
+ESTIMATE: 3.1416886 | ERROR: 9.594641020704842e-05
+<Script end>
+Done!

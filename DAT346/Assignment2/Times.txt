@@ -1,0 +1,83 @@
+
+
+b) Parallelizable parts of the K-means algorithm are the parts where each point gets assigned to a cluster and the re-calculation of centroids.
+   The running times of these parts were measured:
+   ======== TEST 1 =========
+   --------------------
+   samples:    10,000 |
+   classes:         3 |
+   iterations:    100 |
+   K:               5 |
+   --------------------
+   PARTS OF K-MEANS ALGORITHM                 AVERAGE TIME SPENT
+   ----------------------------------------------------------------
+   |ASSIGNMENT OF DATA POINTS TO CENTROIDS | 	  25 [s] --> 89.28%  |
+   |UPDATING THE CENTROIDS                 |     3 [s] --> 10.72%  |
+   ----------------------------------------------------------------
+   TOTAL                                        28 [s] --> 100%
+
+
+   ======== TEST 2 =========
+   --------------------
+   samples:    100,000|
+   classes:         3 |
+   iterations:    100 |
+   K:               5 |
+   --------------------
+   PARTS OF K-MEANS ALGORITHM                 AVERAGE TIME SPENT
+   ----------------------------------------------------------------
+   |ASSIGNMENT OF DATA POINTS TO CENTROIDS | 	  251 [s] --> 90.9%  |
+   |UPDATING THE CENTROIDS                 |     25 [s] -->  9.1%  |
+   ----------------------------------------------------------------
+   TOTAL                                        276 [s] --> 100%
+
+   ======== TEST 3 =========
+   --------------------
+   samples:    10,000 |
+   classes:         6 |
+   iterations:    100 |
+   K:               6 |
+   --------------------
+   PARTS OF K-MEANS ALGORITHM                 AVERAGE TIME SPENT
+   ----------------------------------------------------------------
+   |ASSIGNMENT OF DATA POINTS TO CENTROIDS | 	   29 [s] --> 90.6%  |
+   |UPDATING THE CENTROIDS                 |      3 [s] -->  9.4%  |
+   ----------------------------------------------------------------
+   TOTAL                                         32 [s] --> 100%
+
+
+   ======== TEST 4 =========
+   --------------------
+   samples:    100,000 |
+   classes:          5 |
+   iterations:     100 |
+   K:                3 |
+   --------------------
+   PARTS OF K-MEANS ALGORITHM                 AVERAGE TIME SPENT
+   -----------------------------------------------------------------
+   |ASSIGNMENT OF DATA POINTS TO CENTROIDS | 	    262 [s] --> 91.2%  |
+   |UPDATING THE CENTROIDS                 |       24 [s] -->  8.8%  |
+   -----------------------------------------------------------------
+   TOTAL                                          286 [s] --> 100%
+
+
+
+   ======== TEST 5 =========
+   --------------------
+   samples:    10,000 |
+   classes:         5 |
+   iterations:    100 |
+   K:               3 |
+   --------------------
+   PARTS OF K-MEANS ALGORITHM                 AVERAGE TIME SPENT
+   -----------------------------------------------------------------
+   |ASSIGNMENT OF DATA POINTS TO CENTROIDS | 	    26 [s] --> 89.6%  |
+   |UPDATING THE CENTROIDS                 |       3 [s] --> 10.4%  |
+   -----------------------------------------------------------------
+   TOTAL                                          29 [s] --> 100%
+
+   As it can be seen, the assignment of data points to clusters takes on the largest portion of time with consistent proportions around 90%,
+   though the recalculation of the centroids can also be parallelized, as it takes the other 10% of time.
+
+
+c) Using Amdahl's law,
